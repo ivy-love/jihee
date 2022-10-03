@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 25px 20px 23px 28px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.name {
+    top: 40px;
+    left: 50px;
+    z-index: 2;
+    font-size: 20px;
+    font-weight: 600;
+}
+.menu-toggle,
+.menu-toggle::before,
+.menu-toggle::after {
+  display: block;
+  background-color: var(--val-black-color);
+  width: 30px;
+  height: 4px;
+  border-radius: 2px;
+}
+.menu-toggle::before {
+  content: '';
+  margin-top: -8px;
+  margin-left: -6px;
+}
+.menu-toggle::after {
+  content: '';
+  margin-top: 10px;
+  margin-left: -6px;
+}

@@ -1,0 +1,20 @@
+:root {
+    --val-white-color: #ffffff;
+    --val-black-color: #000000;
+    --val-black2-color: #1d212a;
+}
+
+a {
+    display: block;
+    height: 100%;
+}
+.inner {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.visually-hidden {
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
