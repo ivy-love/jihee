@@ -1,0 +1,36 @@
+.character {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.character .title {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.character .icon-list {
+    display: flex;
+    justify-content: space-between;
+}
+.character .icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.character .icon-item .icon {
+    margin-bottom: 20px;
+}
+.character .icon-item .icon-img {
+    height: 65px;
+}
+.character .icon-item .tite-txt {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.character .icon-item .sub-txt {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    color: var(--val-black2-color);
+}
