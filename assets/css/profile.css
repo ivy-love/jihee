@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     width: 75%;
-    height: calc(100vh - 98px);
+    height: 100vh;
     margin: 0 auto;
 }
 .profile-img {
