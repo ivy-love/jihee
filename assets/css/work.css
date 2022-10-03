@@ -1,0 +1,9 @@
+.work {
+    width: 70%;
+    margin: 0 auto;
+}
+.work .title {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
