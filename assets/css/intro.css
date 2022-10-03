@@ -1,0 +1,31 @@
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.intro .intro-img {
+    width: 40%;
+}
+.intro .intro-txt-container {
+    width: 60%;
+    margin-left: 60px;
+}
+.intro .intro-title {
+    margin-bottom: 25px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.intro .mark {
+    display: inline-block;
+    height: 30px;
+    background: #f4a460;
+    line-height: 15px;
+}
+.intro .intro-sub {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 20px;
+}
