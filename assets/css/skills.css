@@ -1,0 +1,25 @@
+.skills {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.skills .title {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.skills .skills-list {
+    display: flex;
+    width: 750px;
+    flex-wrap: wrap;
+}
+.skills .skills-item {
+    margin-right: 20px;
+    margin-bottom: 15px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--val-black2-color);
+    box-shadow: 2px 2px 10px var(--val-gray-color);
+}
