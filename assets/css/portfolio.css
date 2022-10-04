@@ -1,0 +1,75 @@
+.portfolio {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio .portfolio-contant {
+    width: 45%;
+    height: 400px;
+    overflow: hidden;
+}
+.portfolio .portfolio-contant a {
+    position: relative;
+}
+.portfolio .portfolio-contant.even {
+    margin-top: 150px;
+}
+.portfolio .bg {
+    width: 100%;
+    height: 100%;
+}
+.portfolio .portfolio-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.portfolio .portfolio-txt {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    /* display: none; */
+}
+.portfolio .txt-container {
+    padding: 30px 25px;
+}
+.portfolio .title {
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--val-white-color);
+    text-shadow: 1px 1px 8px var(--val-black-color);
+}
+.portfolio .participation {
+    padding-bottom: 5px;
+    color: var(--val-white-color);
+}
+.portfolio p {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--val-white-color);
+    text-shadow: 1px 1px 8px var(--val-black-color);
+}
+.portfolio span {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--val-white-color);
+    text-shadow: 1px 1px 8px var(--val-black-color);
+}
+.tech-stack {
+    margin-right: 5px;
+    color: var(--val-white-color);
+    font-size: 16px;
+    font-weight: 500;
+    text-shadow: 1px 1px 8px var(--val-black-color);
+}
