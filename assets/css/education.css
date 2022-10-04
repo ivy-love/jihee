@@ -1,0 +1,31 @@
+.education {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.education .title {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.education .education-list-01,
+.education-list-02,
+.education-list-03,
+.education-list-04 {
+    display: flex;
+    align-items: center;
+    width: 550px;
+    margin-bottom: 15px;
+}
+.education .education-title {
+    flex: 2;
+    font-size: 20px;
+    font-weight: 600;
+}
+.education .term-list {
+    flex: 1;
+    padding-left: 80px;
+}
+.education .term {
+    font-size: 18px;
+}
