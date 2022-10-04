@@ -1,0 +1,16 @@
+@media (max-width: 1200px) {
+  .portfolio .txt-container {
+    padding: 40px 30px;
+  }
+  .portfolio .title {
+    padding-bottom: 18px;
+  }
+  .portfolio .participation {
+    padding-bottom: 8px;
+  }
+  .portfolio .tech-stack {
+    display: inline-block;
+    padding-bottom: 3px;
+    font-size: 14px;
+  }
+}
