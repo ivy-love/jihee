@@ -1,0 +1,28 @@
+.license {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.license .title {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.license .license-list-01 {
+    display: flex;
+    align-items: center;
+    width: 550px;
+    margin-bottom: 10px
+}
+.license .license-title {
+    flex: 2;
+    font-size: 20px;
+    font-weight: 600;
+}
+.license .term-list {
+    flex: 1;
+    padding-left: 80px;
+}
+.license .term {
+    font-size: 18px;
+}
