@@ -10,7 +10,7 @@ a {
     height: 100%;
 }
 .inner {
-    max-width: 1300px;
+    width: 70%;
     margin: 0 auto;
 }
 .visually-hidden {
