@@ -20,4 +20,10 @@
     font-weight: 600;
     color: var(--val-black2-color);
     box-shadow: 2px 2px 10px var(--val-gray-color);
+    cursor: pointer;
+    transition: 0.1s;
+}
+.skills .skills-item:hover {
+    background: var(--val-orange-color);
+    color: var(--val-white-color);
 }
