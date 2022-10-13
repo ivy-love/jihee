@@ -26,9 +26,8 @@
     top: 0;
     left: 0;
 }
-.portfolio-contant:hover .portfolio-txt {
-    display: block;
-    transition: 0.3s;
+.portfolio .portfolio-contant:hover .portfolio-txt {
+    opacity: 1;
 }
 .portfolio .portfolio-txt {
     padding: 30px 25px;
@@ -39,8 +38,8 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
     box-sizing: border-box;
-    transition: 0.3s;
-    display: none;
+    transition: 0.2s;
+    opacity: 0;
 }
 .portfolio .title {
     padding-bottom: 10px;
