@@ -1,16 +1,19 @@
 .intro {
+    height: 100vh;
 }
 .intro > .inner {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;    
+    flex-wrap: wrap;
+    padding-top: 98px;    
 }
 .intro .intro-img {
     width: 40%;
+    
 }
 .intro .intro-txt-container {
-    width: 60%;
+    width: calc(60% - 60px);
     padding-left: 60px;
 }
 .intro .intro-title {
@@ -29,3 +32,31 @@
     line-height: 1.8;
     font-size: 20px;
 }
+.resume {
+    width: 150px;
+    height: 20px;
+    margin-top: 50px;
+    padding: 20px 40px;
+    background: var(--val-black-color);
+    border-radius: 50px;
+    color: var(--val-white-color);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 20px;
+    transition: .3s background,.3s color,.3s border,.3s opacity;
+}
+.resume:hover {
+    border: 2px solid var(--val-black-color);
+    animation: move 2.5s infinite;
+    background: transparent;
+    color: var(--val-black-color);
+}
+@keyframes move { 
+    0% { transform: rotate(0deg) } 
+    20% { transform: rotate(2deg) } 
+    24% { transform: rotate(-2deg) } 
+    28% { transform: rotate(2deg) } 
+    32% { transform: rotate(-2deg) } 
+    36% { transform: rotate(0deg) } 
+    } 
