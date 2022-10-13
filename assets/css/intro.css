@@ -24,7 +24,7 @@
 .intro .mark {
     display: inline-block;
     height: 30px;
-    background: #f4a460;
+    background: var(--val-orange-color);
     line-height: 15px;
 }
 .intro .intro-sub {
