@@ -1,14 +1,17 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    padding: 25px 28px 23px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.header-contrainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 25px 28px 23px;
+
 }
 .name {
     top: 40px;
@@ -36,3 +39,77 @@ header {
   margin-top: 10px;
   margin-left: -6px;
 }
+/* .menu-bg {
+  width: 100%;
+  height: 100%; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 101;
+  background: rgba(0, 0, 0, 0.9);
+}
+.menu-close {
+  position: relative;
+  margin-top: 200px;
+  margin-left: 50%;
+  transform: translateX(calc(-65px / 2));
+}
+.menu-close::before {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  background: var(--val-white-color);
+  transform: rotate(45deg);
+  margin-left: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+.menu-close::after {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  background: #fff;
+  transform: rotate(-45deg);
+  margin-bottom: 10px;
+  position: absolute;
+  top: 0;
+}
+.menu-bg-inner {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: calc(-213.33px / 2);
+  margin-top: calc(-120px / 2);
+}
+.menu-item {
+  position: relative;
+}
+.menu-item a{
+  font-size: 50px;
+  font-weight: 500;
+  color: var(--val-white-color);
+}
+.menu-item a::after {
+  content: "";
+  width: 0;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: var(--val-orange-color);
+  z-index: -1;
+}
+.menu-item a:hover::after {
+  width: 100%;
+  transition: 0.3s ease-in-out;
+} */
