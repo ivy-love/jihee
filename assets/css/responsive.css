@@ -1,4 +1,6 @@
 @media (max-width: 1200px) {
+
+  /* portfolio */
   .portfolio .txt-container {
     padding: 40px 30px;
   }
@@ -15,9 +17,146 @@
   }
 }
 
+/* 낮은 해상도의 PC, 태블릿 가로 */
+/* 1024px 이하 */
+@media (max-width: 1091px) {
 
-@media (max-width: 1024px) {
+  /* intro */
+  .intro {
+    height: auto;
+    margin-bottom: 100px;
+  }
+  .intro > .inner {
+    flex-direction: column;
+  }
+  .intro .intro-img {
+    width: 60%;
+    margin-bottom: 30px;
+  }
   .intro .intro-title {
     font-size: 40px;
   }
+  .intro .intro-txt-container {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  /* character */
+  .character .icon-list {
+    width: 500px;
+    height: 450px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 0 auto;
+  }
+
+  /* skills */
+  .skills .skills-list {
+    width: auto;
+  }
+
+  /* portfolio */
+  .portfolio .title {
+    text-shadow: 0.1px 0.1px 5px var(--val-black-color);
+  }
+  .portfolio p {
+    text-shadow: 0.1px 0.1px 5px var(--val-black-color);
+  }
+
+  /* contact */
+  .contact {
+    height: auto;
+  }
+  .contact .inner {
+    width: 56%;
+  }
+  .contact .contact-container {
+    flex-direction: column;
+  }
+  .contact .my-contact {
+    margin-left: 0;
+    margin-top: 80px;
+  }
+  .contact .my-contact::before {
+    display: none;
+  }
+}
+
+/* 768px 이하 */
+@media (max-width: 786px) {
+
+  /* work */
+  .work .work-list {
+    justify-content: space-between;
+  }
+  .work .term-list {
+    padding-left: 0;
+  }
+
+  .character .icon-list {
+    width: auto;
+  }
+
+  /* contact */
+  .contact .gform,
+  .contact .form-elements {
+    width: auto;
+  }
+  .contact .name-group, .contact .email-group {
+    display: block;
+  }
+  .contact .email-title, 
+  .contact .address-title, 
+  .contact .social-title {
+    margin-bottom: 10px;
+  }
+  .contact .my-contact {
+    margin-top: 60px;
+  }
+  .contact .email-txt, 
+  .contact .address-txt {
+    margin-bottom: 20px;
+  }
+}
+
+/* 646px 이하 */
+@media (max-width: 646px) {
+
+}
+/* 320px 이하 */
+@media (max-width: 320px) {
+
+
+
+
+  .character .icon-list {
+    width: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 태블릿 가로 */
+/* 1023px 이하 768px 이상  */
+@media (max-width: 1023px) and (min-width: 768px) {
+
+}
+
+/* 모바일, 태블릿 */
+/* 767px 이하 320px 이상  */
+@media (max-width: 767px) and (min-width: 320px) {
+
 }
