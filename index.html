@@ -22,7 +22,11 @@
     <link rel="stylesheet" href="assets/css/skills.css">
     <link rel="stylesheet" href="assets/css/license.css">
     <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- SCRIPT -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
@@ -47,6 +51,9 @@
                     </li>
                     <li class="menu-item">
                         <a href="#intro">Portfolio</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#intro">Contact</a>
                     </li>
                 </ul>
             </nav> -->
@@ -295,9 +302,61 @@
                 </div>
             </div>
         </section>
+        <section class="contact">
+            <div class="inner">
+                <h2 class="title">Contact</h2>
+                <div class="contact-container">
+                    <form class="gform pure-form pure-form-stacked" method="POST" target="_blank" data-email="dieline.j@gmail.com" action="https://script.google.com/macros/s/AKfycbxmAKN4_2JYRJQkBWExOtyowQ9CTCRARqZbO8tkaQ/exec">
+                        <div class="form-elements">
+                            <fieldset class="name-group">
+                                <label for="name" class="title">Name</label>
+                                <input id="name" name="name" placeholder="Write down your name" />
+                            </fieldset>
+                            <fieldset class="email-group">
+                                <label for="email" class="title">Email</label>
+                                <input id="email" name="email" type="email" value=""
+                                required placeholder="id@email.com"/>
+                            </fieldset>
+                            <fieldset class="message-group">
+                                <label for="message" class="title">Message </label>
+                                <textarea id="message" name="message" rows="10"
+                                placeholder="Write down the message you want to send me"></textarea>
+                            </fieldset>
+                            <button class="send-btn button-success pure-button button-xlarge">Send Message</button>
+                        </div>
+                        <div class="thankyou_message" style="display: none;">
+                            <h2 class="title">
+                                고맙습니다 :)
+                                <br>
+                                확인 후 연락드리겠습니다!
+                            </h2>
+                        </div>
+                    </form>
+                    <div class="my-contact">
+                        <h3 class="email-title">E-mail</h3>
+                        <p class="email-txt">blueskae_@naver.com</p>
+                        <h3 class="address-title">Adderess</h3>
+                        <p class="address-txt">
+                            9, Yangpyeong-ro 24-gil, Yeongdeungpo-gu, Seoul
+                        </p>
+                        <h3 class="social-title">Social</h3>
+                        <a href="https://github.com/ivy-love/jihee" class="social" target="_blank">
+                            <!-- <object type="image/svg+xml" data="assets/img/github.svg" class="social-img" style="fill: red;"></object> -->
+                            <img src="assets/img/github.png" alt="" class="social-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <script>
+                
+            </script>
+        </section>
     </main>
     <footer>
 
     </footer>
+    
+    <script data-cfasync="false" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
 </body>
 </html>
