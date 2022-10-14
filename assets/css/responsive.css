@@ -17,8 +17,7 @@
   }
 }
 
-/* 낮은 해상도의 PC, 태블릿 가로 */
-/* 1024px 이하 */
+/* 1091px 이하 */
 @media (max-width: 1091px) {
 
   /* intro */
@@ -94,8 +93,14 @@
     padding-left: 0;
   }
 
+  /* character */
   .character .icon-list {
     width: auto;
+  }
+
+  /* portfolio */
+  .portfolio .portfolio-contant {
+    height: 350px;
   }
 
   /* contact */
@@ -120,43 +125,196 @@
   }
 }
 
-/* 646px 이하 */
-@media (max-width: 646px) {
+/* 320px 이상 */
+@media (max-width: 786px) and (min-width: 320px) {
 
-}
-/* 320px 이하 */
-@media (max-width: 320px) {
+  /* common */
+  .title {
+    font-size: 20px !important;
+    margin-bottom: 30px !important;
+  }
 
+  /* intro */
+  .intro {
+    margin-bottom: 50px;
+  }
+  .intro .intro-img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .intro .intro-title {
+    margin-bottom: 8px;
+    font-size: 25px;
+  }
+  .intro .mark {
+    height: 16px;
+    line-height: 4px;
+  }
+  .intro .intro-sub {
+    font-size: 12px;
+  }
+  .resume {
+    height: 0px;
+    line-height: 0px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
 
-
-
+  /* character */
+  .character {
+    margin-bottom: 30px;
+  }
+  .character .icon-item {
+    margin-bottom: 30px;
+  }
   .character .icon-list {
     width: auto;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
-}
+  .character .icon-item .icon {
+    margin-bottom: 5px;
+  }
+  .character .icon-item .icon-img {
+    height: 50px;
+  }
+  .character .icon-item .tite-txt {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .character .icon-item .sub-txt {
+    font-size: 12px;
+  }
 
+  /* work */
+  .work {
+    margin-bottom: 50px;
+  }
+  .work .work-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .work .company {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .work .position, 
+  .work .career, 
+  .work .term {
+    font-size: 12px;
+  }
+  .career-list,
+  .position-list {
+    padding-left: 0 !important;
+    padding-bottom: 2.5px;
+  }
 
+  /* skills */
+  .skills {
+    margin-bottom: 50px;
+  }
+  .skills .skills-list {
+    flex-direction: column;
+  }
+  .skills .skills-item {
+    text-align: center;
+    font-size: 12px;
+  }
 
+  /* education */
+  .education {
+    margin-bottom: 50px;
+  }
+  .education .education-list-01, 
+  .education-list-02, 
+  .education-list-03, 
+  .education-list-04 {
+    flex-direction: column;
+    width: auto;
+    align-items: flex-start;
+  }
+  .education .education-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .education .term-list {
+    padding-left: 0;
+  }
+  .education .term {
+    font-size: 12px;
+  }
+  
+  /* license */
+  .license {
+    margin-bottom: 100px;
+  }
+  .license .license-list-01 {
+    flex-direction: column;
+    width: auto;
+    align-items: flex-start;
+  }
+  .license .license-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .license .term-list {
+    padding-left: 0;
+  }
+  .license .term {
+    font-size: 14px;
+  }
 
+  /* portfolio */
+  .portfolio-container {
+    flex-direction: column;
+  }
+  .portfolio .portfolio-contant {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  .portfolio .portfolio-contant:last-child {
+    margin-bottom: 0;
+  }
+  .portfolio .portfolio-contant.even {
+    margin-top: 0;
+  }
 
-
-
-
-
-
-
-
-
-
-
-/* 태블릿 가로 */
-/* 1023px 이하 768px 이상  */
-@media (max-width: 1023px) and (min-width: 768px) {
-
-}
-
-/* 모바일, 태블릿 */
-/* 767px 이하 320px 이상  */
-@media (max-width: 767px) and (min-width: 320px) {
-
+  /* contact */
+  .contact #name,
+  .contact #email {
+    width: 100%;
+    height: 35px;
+  }
+  .contact #message {
+    height: 150px;
+  }
+  .contact #name::placeholder,
+  .contact #email::placeholder,
+  .contact #message::placeholder {
+    font-size: 11px;
+  }
+  .contact .name-group .title, 
+  .contact .email-group .title, 
+  .contact .message-group .title {
+    font-size: 16px !important;
+    margin-bottom: 10px !important;
+  }
+  .contact .send-btn {
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 12px;
+  }
+  .contact .email-title, 
+  .contact .address-title, 
+  .contact .social-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .contact .email-txt, 
+  .contact .address-txt {
+    font-size: 14px;
+    line-height: 1.4;
+  }
 }
