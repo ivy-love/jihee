@@ -1,5 +1,5 @@
 .intro {
-    height: 100vh;
+    margin-bottom: 100px;
 }
 .intro > .inner {
     display: flex;
