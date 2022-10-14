@@ -73,7 +73,7 @@ header {
   display: inline-block;
   width: 50px;
   height: 4px;
-  background: #fff;
+  background: var(--val-white-color);
   transform: rotate(-45deg);
   margin-bottom: 10px;
   position: absolute;
@@ -93,6 +93,7 @@ header {
 }
 .menu-item {
   position: relative;
+  line-height: 1.7;
 }
 .menu-item a{
   font-size: 50px;
@@ -102,10 +103,10 @@ header {
 .menu-item a::after {
   content: "";
   width: 0;
-  height: 25px;
+  height: 22px;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 15px;
   background: var(--val-orange-color);
   z-index: -1;
 }
