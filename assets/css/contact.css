@@ -1,0 +1,148 @@
+.contact {
+    height: 759px;
+    background: var(--val-orange-color);
+}
+.contact .inner {
+    width: 60%;
+    padding: 80px 0 100px;
+}
+.contact .inner > .title {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--val-white-color);
+}
+.contact .contact-container {
+    display: flex;
+}
+.contact .gform {
+    width: 600px;
+}
+.contact .form-elements {
+    width: 600px;
+}
+.contact .name-group,
+.contact .email-group {
+    display: inline-block;
+}
+.contact .message-group {
+    margin-bottom: 10px;
+}
+.contact .name-group .title,
+.contact .email-group .title,
+.contact .message-group .title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--val-white-color);
+}
+.contact #name,
+.contact #email,
+.contact #message {
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 8px 13px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid var(--val-orange2-color);
+    color: var(--val-white-color);
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+.contact #name {
+    width: calc(300px - 5px);
+    height: 45px;
+    margin-right: 10px;
+}
+.contact #email {
+    width: calc(300px - 9px);
+    height: 45px;
+}
+.contact #message {
+    width: 100%;
+    height: 300px;
+    padding: 13px;
+    line-height: 1.3;
+}
+.contact #name::placeholder,
+.contact #email::placeholder,
+.contact #message::placeholder {
+    font-size: 13px;
+    color: var(--val-orange3-color);
+}
+.contact .send-btn {
+    font-size: 16px;
+    font-weight: 500;
+    background: var(--val-white-color);
+    padding: 13px 40px;
+    border-radius: 23px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+.contact .send-btn:hover {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    animation: move 2.5s infinite;
+}
+@keyframes move { 
+    0% { transform: rotate(0deg) } 
+    20% { transform: rotate(2deg) } 
+    24% { transform: rotate(-2deg) } 
+    28% { transform: rotate(2deg) } 
+    32% { transform: rotate(-2deg) } 
+    36% { transform: rotate(0deg) } 
+}
+.contact .thankyou_message {
+    margin-top: 100px;
+} 
+.contact .thankyou_message .title {
+    line-height: 1.3;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--val-white-color);
+}
+.contact .my-contact {
+    margin-left: 150px;
+    position: relative;
+}
+.contact .my-contact::before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 430px;
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 0;
+    left: -65px;
+    margin-top: calc(511px / 2);
+    transform: translateY(-50%);
+}
+
+.contact .email-title,
+.contact .address-title,
+.contact .social-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--val-white-color);
+}
+.contact .address-title {
+    margin-top: 10px;
+}
+.contact .email-txt,
+.contact .address-txt {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--val-white-color);
+}
+.contact .address-txt {
+    line-height: 1.6;
+}
+.contact .social {
+    width: 25px;
+    height: auto;
+}
+.contact .social-img {
+    width: 25px;
+}
