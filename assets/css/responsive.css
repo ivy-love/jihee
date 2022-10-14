@@ -280,6 +280,18 @@
   .portfolio .portfolio-contant.even {
     margin-top: 0;
   }
+  .portfolio-txt .title {
+    font-size: 16px !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 5px !important;
+  }
+  .portfolio .participation {
+    padding-bottom: 3px;
+  }
+  .portfolio .participation p {
+    font-size: 14px !important;
+  }
+
 
   /* contact */
   .contact #name,
