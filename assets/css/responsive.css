@@ -85,48 +85,9 @@
 
 /* 768px 이하 */
 @media (max-width: 786px) {
-
-  /* work */
-  .work .work-list {
-    justify-content: space-between;
-  }
-  .work .term-list {
-    padding-left: 0;
-  }
-
-  /* character */
-  .character .icon-list {
-    width: auto;
-  }
-
-  /* portfolio */
-  .portfolio .portfolio-contant {
-    height: 350px;
-  }
-
-  /* contact */
-  .contact .gform,
-  .contact .form-elements {
-    width: auto;
-  }
-  .contact .name-group, .contact .email-group {
-    display: block;
-  }
-  .contact .email-title, 
-  .contact .address-title, 
-  .contact .social-title {
-    margin-bottom: 10px;
-  }
-  .contact .my-contact {
-    margin-top: 40px;
-  }
-  .contact .email-txt, 
-  .contact .address-txt {
-    margin-bottom: 20px;
-  }
 }
 
-/* 320px 이상 */
+/* 786px 이하 320px 이상 */
 @media (max-width: 786px) and (min-width: 320px) {
 
   /* common */
@@ -203,6 +164,8 @@
   .work .work-list {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 0;
   }
   .work .company {
     font-size: 16px;
@@ -278,17 +241,22 @@
   }
   .portfolio .portfolio-contant {
     width: 100%;
-    height: 200px;
+    height: 330px;
     margin-bottom: 50px;
-  }
-  .portfolio .portfolio-contant:last-child {
-    margin-bottom: 0;
   }
   .portfolio .portfolio-contant.even {
     margin-top: 0;
   }
+  .portfolio .portfolio-contant:last-child {
+    margin-bottom: 0;
+  }
   .portfolio .portfolio-txt {
-    opacity: 1;
+    /* opacity: 1;
+    left: unset;
+    right: 100%; */
+  }
+  .portfolio .even .portfolio-txt {
+    /* left: 100%; */
   }
   .portfolio .portfolio-txt .title {
     font-size: 16px !important;
@@ -301,8 +269,12 @@
   .portfolio .participation p {
     font-size: 14px !important;
   }
-
+  
   /* contact */
+  .contact .gform,
+  .contact .form-elements {
+    width: auto;
+  }
   .contact #name,
   .contact #email {
     width: 100%;
@@ -315,6 +287,11 @@
   .contact #message::placeholder {
     font-size: 14px;
   }
+  .contact .name-group, 
+  .contact .email-group {
+    display: block;
+  }
+
   .contact .name-group .title, 
   .contact .email-group .title, 
   .contact .message-group .title {
@@ -326,14 +303,19 @@
     padding: 10px 10px;
     font-size: 16px;
   }
+
+  .contact .my-contact {
+    margin-top: 40px;
+  }
   .contact .email-title, 
   .contact .address-title, 
   .contact .social-title {
-    font-size: 16px;
     margin-bottom: 5px;
+    font-size: 16px;
   }
   .contact .email-txt, 
   .contact .address-txt {
+    margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.4;
   }
