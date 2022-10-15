@@ -33,16 +33,14 @@
 }
 .resume {
     width: 150px;
-    height: 20px;
     margin-top: 50px;
-    padding: 20px 40px;
+    padding: 15px 40px;
     background: var(--val-black-color);
     border-radius: 50px;
     color: var(--val-white-color);
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    line-height: 20px;
     transition: .3s background,.3s color,.3s border,.3s opacity;
 }
 .resume:hover {
