@@ -154,7 +154,7 @@
     margin-bottom: 5px;
   }
   .character .icon-item .sub-txt {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* work */
@@ -168,18 +168,21 @@
     padding-left: 0;
   }
   .work .company {
-    font-size: 16px;
+    font-size: 18px;
     padding-bottom: 5px;
   }
   .work .position, 
   .work .career, 
   .work .term {
-    font-size: 14px;
+    font-size: 16px;
   }
   .career-list,
   .position-list {
     padding-left: 0 !important;
     padding-bottom: 2.5px;
+  }
+  .work .term-list {
+    padding-left: 0;
   }
 
   /* skills */
