@@ -9,11 +9,11 @@
     padding-top: 98px;    
 }
 .intro .intro-img {
-    width: 40%;
+    width: 30%;
 }
 .intro .intro-txt-container {
     width: calc(60% - 60px);
-    padding-left: 60px;
+    padding-left: 80px;
 }
 .intro .intro-title {
     margin-bottom: 25px;
