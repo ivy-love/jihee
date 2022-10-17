@@ -26,24 +26,30 @@ header {
 .menu-toggle::after {
   display: block;
   background-color: var(--val-black-color);
-  width: 30px;
   height: 3px;
   border-radius: 2px;
 }
 .menu-toggle {
+  width: 20px;
   position: relative;
+  transition: 0.1s;
 }
 .menu-toggle::before {
   content: '';
+  width: 30px;
   position: absolute;
   right: 0;
   top: -6px;
 }
 .menu-toggle::after {
   content: '';
+  width: 30px;
   position: absolute;
   right: 0;
   bottom: -6px;
+}
+.menu-toggle.on {
+  width: 30px;
 }
 /* .menu-bg {
   width: 100%;

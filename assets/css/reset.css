@@ -38,7 +38,10 @@ i {
 blockquote, q {
     quotes: none;
 }
-blockquote:before, blockquote:after,q:before, q:after {
+blockquote:before, 
+blockquote:after,
+q:before, 
+q:after {
     content: ''; 
     content: none;
 }
@@ -52,8 +55,9 @@ button {
     border: 0;
 }
 
-html,body,main {
-    position: relative;height: 100%;
+html,body {
+    position: relative;
+    height: 100%;
 }
 body{
     font-family: 'Montserrat','Noto Sans KR', sans-serif; 
@@ -71,7 +75,6 @@ body{
 .swiper-slide {
     font-size: 18px;
     background: var(--val-white-color);
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;

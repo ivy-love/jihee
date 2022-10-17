@@ -7,14 +7,6 @@
     --val-orange2-color: #f3d2b6;
     --val-orange3-color: #f0e5dc;
 }
-a {
-    display: block;
-    height: 100%;
-}
-.inner {
-    width: 70%;
-    margin: 0 auto;
-}
 .visually-hidden {
     width: 1px;
     height: 1px;

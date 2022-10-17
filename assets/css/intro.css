@@ -1,12 +1,10 @@
 .intro {
-    margin-bottom: 100px;
-}
-.intro > .inner {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 98px;    
+    margin-bottom: 100px;
+    margin-top: 98px;    
 }
 .intro .intro-img {
     width: 30%;

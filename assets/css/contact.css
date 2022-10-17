@@ -3,7 +3,8 @@
     background: var(--val-orange-color);
 }
 .contact .inner {
-    width: 60%;
+    width: 70%;
+    margin: 0 auto;
     padding: 80px 0 100px;
 }
 .contact .inner > .title {
@@ -79,9 +80,9 @@
     transition: 0.2s;
 }
 .contact .send-btn:hover {
-    border: 2px solid #fff;
+    border: 2px solid var(--val-white-color);
     background: transparent;
-    color: #fff;
+    color: var(--val-white-color);
     animation: move 2.5s infinite;
 }
 @keyframes move { 
@@ -120,7 +121,7 @@
 
 .contact .email-title,
 .contact .address-title,
-.contact .social-title {
+.contact .links-title {
     margin-bottom: 20px;
     font-size: 20px;
     font-weight: 600;
@@ -139,10 +140,13 @@
 .contact .address-txt {
     line-height: 1.6;
 }
-.contact .social {
+.contact .links {
     width: 25px;
     height: auto;
 }
-.contact .social-img {
+.contact .links:last-child {
+    margin-left: 5px;
+}
+.contact .links-img {
     width: 25px;
 }

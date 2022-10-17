@@ -76,10 +76,19 @@
   }
   .contact .my-contact {
     margin-left: 0;
-    margin-top: 80px;
+    margin-top: 40px;
   }
   .contact .my-contact::before {
     display: none;
+  }
+  .contact .my-contact .email-title, 
+  .contact .my-contact .address-title, 
+  .contact .my-contact .links-title {
+    margin-bottom: 5px;
+  }
+  .contact .email-txt, 
+  .contact .address-txt {
+    margin-bottom: 20px;
   }
 }
 
@@ -90,9 +99,6 @@
   .title {
     font-size: 24px !important;
     margin-bottom: 30px !important;
-  }
-  .inner {
-    width: 90% !important;
   }
 
   /* header */
@@ -250,12 +256,36 @@
     margin-bottom: 0;
   }
   .portfolio .portfolio-txt {
-    /* opacity: 1;
-    left: unset;
-    right: 100%; */
+    opacity: 1;
+    margin-left: -100%;
   }
+
+  /* .portfolio .portfolio-contant:hover .portfolio-txt {
+    opacity: 0;
+} */
+  .portfolio .portfolio-txt.on {
+    /* animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-fill-mode: forwards;
+    opacity: 0; */
+  }
+
+  /* @keyframes slidein {
+    from {
+      margin-left: -100%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  } */
+
+
+
   .portfolio .even .portfolio-txt {
-    /* left: 100%; */
+    opacity: 1;
+    margin-left: 100%;    
   }
   .portfolio .portfolio-txt .title {
     font-size: 16px !important;
@@ -290,7 +320,6 @@
   .contact .email-group {
     display: block;
   }
-
   .contact .name-group .title, 
   .contact .email-group .title, 
   .contact .message-group .title {
@@ -302,14 +331,10 @@
     padding: 10px 10px;
     font-size: 16px;
   }
-
-  .contact .my-contact {
-    margin-top: 40px;
-  }
   .contact .email-title, 
   .contact .address-title, 
-  .contact .social-title {
-    margin-bottom: 5px;
+  .contact .social-title,
+  .contact .links-title {
     font-size: 16px;
   }
   .contact .email-txt, 
@@ -318,4 +343,5 @@
     font-size: 14px;
     line-height: 1.4;
   }
+  
 }
