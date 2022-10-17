@@ -51,7 +51,7 @@ header {
 .menu-toggle.on {
   width: 30px;
 }
-/* .menu-bg {
+.menu-bg {
   width: 100%;
   height: 100%; 
   position: fixed;
@@ -60,6 +60,7 @@ header {
   right: 0;
   z-index: 101;
   background: rgba(0, 0, 0, 0.9);
+  display: none;
 }
 .menu-close {
   position: relative;
@@ -78,7 +79,6 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  
 }
 .menu-close::after {
   content: "";
@@ -91,7 +91,7 @@ header {
   position: absolute;
   top: 0;
 }
-.menu-bg-inner {
+.menu-list {
   height: 140px;
   display: flex;
   flex-direction: column;
@@ -125,4 +125,4 @@ header {
 .menu-item a:hover::after {
   width: 100%;
   transition: 0.3s ease-in-out;
-} */
+}
