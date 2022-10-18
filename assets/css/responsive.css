@@ -101,10 +101,13 @@
   }
 
   /* header */
-  .header-contrainer {
+  .header {
     width: 90%;
     margin: 0 auto;
     padding: 15px 0 13px;
+  }
+  main {
+    width: 90%;
   }
 
   /* intro */
@@ -299,6 +302,9 @@
   }
   
   /* contact */
+  .contact .inner {
+    width: 90%;
+  }
   .contact .gform,
   .contact .form-elements {
     width: auto;
