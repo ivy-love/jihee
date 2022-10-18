@@ -4,7 +4,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 100px;
-    margin-top: 98px;    
+    padding-top: 98px;    
 }
 .intro .intro-img {
     width: 30%;
