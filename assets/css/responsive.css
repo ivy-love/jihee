@@ -101,7 +101,7 @@
   }
 
   /* header */
-  .header {
+  .header .inner {
     width: 90%;
     margin: 0 auto;
     padding: 15px 0 13px;

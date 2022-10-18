@@ -5,6 +5,8 @@ header {
   right: 0;
   z-index: 100;
   background: var(--val-white-color);
+}
+.header .inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -101,12 +103,13 @@ header {
   margin-top: calc(-120px / 2);
 }
 .menu-item {
+  margin-bottom: 15px;
   position: relative;
-  line-height: 1.7;
 }
 .menu-item a{
   font-size: 50px;
   font-weight: 500;
+  line-height: 1.7;
   color: var(--val-white-color);
 }
 .menu-item a::after {
