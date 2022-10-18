@@ -314,7 +314,7 @@
     width: 100%;
   }
   .contact #message {
-    height: 150px;
+    height: 250px;
   }
   .contact #name::placeholder,
   .contact #email::placeholder,
