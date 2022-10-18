@@ -3,18 +3,6 @@ $(document).ready(function(){
     //AOS 라이브러리 초기화
     AOS.init();
 
-
-
-    // $(window).scroll(function() {
-    //     if($(this).scrollTop() == 0)
-    //         $('header').css('background','rgba(255, 255, 255)');
-    //     else
-    //         $('header').css({background:"rgba(255, 255, 255, 0.6)"});
-    // });
-
-
-
-
     //menu-toggle 마우스 올렸을 때 width 값 변경
     $(".menu-toggle").mouseenter(function(){
         $(this).addClass("on");
@@ -48,10 +36,6 @@ $(document).ready(function(){
         const offset = $('.contact').offset();
           $('html').animate({scrollTop : offset.top - 98}, 400);
     })
-
-
-
-
 
 
     function aosMobile() {
