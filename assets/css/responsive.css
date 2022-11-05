@@ -257,38 +257,6 @@
   .portfolio .portfolio-contant:last-child {
     margin-bottom: 0;
   }
-  .portfolio .portfolio-txt {
-    opacity: 1;
-    margin-left: -100%;
-  }
-
-  /* .portfolio .portfolio-contant:hover .portfolio-txt {
-    opacity: 0;
-} */
-  .portfolio .portfolio-txt.on {
-    /* animation-delay: 0.5s;
-    animation-duration: 1s;
-    animation-name: slidein;
-    animation-fill-mode: forwards;
-    opacity: 0; */
-  }
-
-  /* @keyframes slidein {
-    from {
-      margin-left: -100%;
-    }
-  
-    to {
-      margin-left: 0%;
-    }
-  } */
-
-
-
-  .portfolio .even .portfolio-txt {
-    opacity: 1;
-    margin-left: 100%;    
-  }
   .portfolio .portfolio-txt .title {
     font-size: 16px !important;
     padding-bottom: 0 !important;
