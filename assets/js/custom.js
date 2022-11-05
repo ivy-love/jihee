@@ -36,34 +36,4 @@ $(document).ready(function(){
         const offset = $('.contact').offset();
           $('html').animate({scrollTop : offset.top - 98}, 400);
     })
-
-
-    function aosMobile() {
-
-        const isMobile = window.innerWidth < 1200;
-        console.log(isMobile);
-        if(!isMobile) return
-        $(".portfolio-txt").addClass("on");
-
-        $(window).scroll(function () {
-            const top = window.scrollY || window.pageYOffset;
-            console.log(top);
-          });
-       
-
-
-        // if(matchMedia("(max-width: 786px) and (min-width: 320px)").matches) {
-            
-        //     $(".portfolio-txt").attr({
-        //         'data-aos':'slide-left',
-        //         'data-aos-delay':'3000'
-        //     });
-
-        //     $(".even .portfolio-txt").attr({
-        //         'data-aos':'slide-right',
-        //         'data-aos-delay':'1000'
-        //     });
-        // }
-    };
-    aosMobile();
 });
