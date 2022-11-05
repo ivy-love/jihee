@@ -81,7 +81,7 @@
     transition: 0.2s;
 }
 .contact .send-btn:hover {
-    border: 2px solid var(--val-white-color);
+    outline: 2px solid var(--val-white-color);
     background: transparent;
     color: var(--val-white-color);
     animation: move 2.5s infinite;

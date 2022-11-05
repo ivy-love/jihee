@@ -42,7 +42,7 @@
     transition: .3s background,.3s color,.3s border,.3s opacity;
 }
 .resume:hover {
-    border: 2px solid var(--val-black-color);
+    outline: 2px solid var(--val-black-color);
     background: transparent;
     color: var(--val-black-color);
     animation: move 2.5s infinite;
