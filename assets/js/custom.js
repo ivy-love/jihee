@@ -36,4 +36,6 @@ $(document).ready(function(){
         const offset = $('.contact').offset();
           $('html').animate({scrollTop : offset.top - 98}, 400);
     })
+
+
 });
