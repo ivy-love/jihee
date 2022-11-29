@@ -68,14 +68,15 @@
     height: auto;
   }
   .contact .inner {
-    padding: 30px 0 40px;
+    /* padding: 30px 0 40px; 기존 */
+    padding: 70px 0 80px;
   }
   .contact .contact-container {
     flex-direction: column;
   }
   .contact .my-contact {
     margin-left: 0;
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
   .contact .my-contact::before {
     display: none;
@@ -272,6 +273,7 @@
   /* contact */
   .contact .inner {
     width: 90%;
+    padding: 50px 0 60px;
   }
   .contact .gform,
   .contact .form-elements {

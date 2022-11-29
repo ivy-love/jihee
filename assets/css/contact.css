@@ -1,5 +1,6 @@
 .contact {
-    height: 759px;
+    /* height: 759px; 기존 */
+    height: auto;
     background: var(--val-orange-color);
 }
 .contact .inner {
@@ -16,7 +17,7 @@
 .contact .contact-container {
     display: flex;
 }
-.contact .gform {
+/* .contact .gform {
     width: 600px;
 }
 .contact .form-elements {
@@ -118,8 +119,7 @@
     left: -65px;
     margin-top: calc(511px / 2);
     transform: translateY(-50%);
-}
-
+} */
 .contact .email-title,
 .contact .address-title,
 .contact .links-title {
