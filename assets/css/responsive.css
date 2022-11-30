@@ -15,6 +15,17 @@
     padding-bottom: 3px;
     font-size: 14px;
   }
+
+  /* contact */
+  .contact .inner > .title {
+    margin-bottom: 100px;
+  }
+  .contact .email-txt {
+    font-size: 60px;
+  }
+  .email-txt-sub {
+    font-size: 25px;
+  }
 }
 
 /* 1091px 이하 */
@@ -64,39 +75,22 @@
   }
 
   /* contact */
-  .contact {
-    height: auto;
+  .contact .inner > .title {
+    margin-bottom: 120px;
   }
-  .contact .inner {
-    /* padding: 30px 0 40px; 기존 */
-    padding: 70px 0 80px;
+  .contact .email-txt {
+    margin-bottom: 25px;
+    font-size: 40px;
   }
-  .contact .contact-container {
-    flex-direction: column;
-  }
-  .contact .my-contact {
-    margin-left: 0;
-    /* margin-top: 40px; */
-  }
-  .contact .my-contact::before {
-    display: none;
-  }
-  .contact .my-contact .email-title, 
-  .contact .my-contact .address-title, 
-  .contact .my-contact .links-title {
-    margin-bottom: 5px;
-  }
-  .contact .email-txt, 
-  .contact .address-txt {
-    margin-bottom: 20px;
+  .email-txt-sub {
+    font-size: 20px;
   }
 }
-
 /* 786px 이하 320px 이상 */
 @media (max-width: 786px) and (min-width: 320px) {
 
   /* common */
-  .title {
+  .title:not(.contact .title) {
     font-size: 24px !important;
     margin-bottom: 30px !important;
   }
@@ -271,52 +265,21 @@
   }
   
   /* contact */
-  .contact .inner {
-    width: 90%;
-    padding: 50px 0 60px;
+  .contact .inner > .title {
+    margin-bottom: 140px;
+    font-size: 24px;
   }
-  .contact .gform,
-  .contact .form-elements {
-    width: auto;
+  .contact .email-txt {
+    margin-bottom: 15px;
+    font-size: 20px;
   }
-  .contact #name,
-  .contact #email {
-    width: 100%;
+  .email-txt-sub {
+    font-size: 12px;
   }
-  .contact #message {
-    height: 250px;
+  .contact .links-img {
+    width: 25px;
   }
-  .contact #name::placeholder,
-  .contact #email::placeholder,
-  .contact #message::placeholder {
-    font-size: 14px;
+  .contact .notion {
+    margin-left: 10px;
   }
-  .contact .name-group, 
-  .contact .email-group {
-    display: block;
-  }
-  .contact .name-group .title, 
-  .contact .email-group .title, 
-  .contact .message-group .title {
-    font-size: 16px !important;
-    margin-bottom: 10px !important;
-  }
-  .contact .send-btn {
-    width: 200px;
-    padding: 10px 10px;
-    font-size: 16px;
-  }
-  .contact .email-title, 
-  .contact .address-title, 
-  .contact .social-title,
-  .contact .links-title {
-    font-size: 16px;
-  }
-  .contact .email-txt, 
-  .contact .address-txt {
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 1.4;
-  }
-  
 }
