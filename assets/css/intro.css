@@ -14,15 +14,20 @@
     padding-left: 80px;
 }
 .intro .intro-title {
+    position: relative;
     margin-bottom: 25px;
     font-size: 50px;
     font-weight: 700;
+    overflow: hidden;
 }
 .intro .mark {
-    display: inline-block;
+    position: absolute;
+    width: 140px;
     height: 30px;
+    bottom: 1px;
     background: var(--val-orange-color);
     line-height: 15px;
+    z-index: -1;
 }
 .intro .intro-sub {
     text-align: justify;
